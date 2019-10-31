@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/coins.css">
+    <title>Coin Sort</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Coin Sort</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <form action="#link" onsubmit="coinSort()">
+                    <p>Enter the amount of coins:</p>
+                    <p>Pennies:</p>
+                    <input type="number" min="0" id="pen" value="0">
+                    <p>Nickels:</p>
+                    <input type="number" min="0" id="nic" value="0">
+                    <p>Dimes:</p>
+                    <input type="number" min="0" id="dim" value="0">
+                    <p>Quarters:</p>
+                    <input type="number" min="0" id="qua" value="0">
+                    <input type="submit" value="Calculate" class="submit"> 
+                </form>
+            </div>
+            <div class="col-sm-6 sorted">
+                <h2>Sorted</h2>
+                <p>Penny total: $<span id="penTotal"></span></p>
+                <p>Nickel total: $<span id="nicTotal"></span></p>
+                <p>Dime total: $<span id="dimTotal"></span></p>
+                <p>Quarter total: $<span id="quaTotal"></span></p>
+                <p class="grand">Grand Total: $<span id="grand"></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/coins.js"></script>
+</body>
+</html>

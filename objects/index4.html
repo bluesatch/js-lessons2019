@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coin Counter</title>
+</head>
+<body>
+    <h1>Coin Counter</h1>
+    <form action="#" id="coins" onsubmit="coinCounter()">
+        <input type="number" min="0" value="0" id="pennyCount">
+        <p>How many pennies?</p>
+        <input type="number" min="0" value="0" id="nickelCount">
+        <p>How many nickels?</p>
+        <input type="number" min="0" value="0" id=dimeCount>
+        <p>How many dimes?</p>
+        <input type="number" min="0" value="0" id="quarterCount">
+        <p>How many quarters?</p>
+        <input type="submit" value="Count Em Up!">
+    </form>
+    <h2>The totals:</h2>
+    <p id="penniesOutput"></p>
+    <p id="nickelsOutput"></p>
+    <p id="dimesOutput"></p>
+    <p id="quartersOutput"></p>
+    <p id="grandTotalOutput"></p>
+    <script src="js/app4.js"></script>
+</body>
+</html>

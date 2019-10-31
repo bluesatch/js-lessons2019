@@ -1,0 +1,20 @@
+While loop
+    while a condition is true
+    while loop has opportunity to not run
+
+Do-while loop
+    runs the block of code then checks the condition 
+
+Do-until loop
+    do some task, while a condition is false (or until it is true)
+
+With all loops, be careful not to create infinite loop-always provide a way to break out 
+
+While (condtion)
+    do stuff
+End while
+
+While - may not have to process
+Do-while - must run at least once
+For - Runs specific amount of times
+

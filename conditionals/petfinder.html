@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>pet finder</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>variables</h2>
+                <ul>
+                    <li>SET pet</li>
+                    <li>SET numOfLegs</li>
+                    <li>SET hasScales</li>
+                    <li>SET doesSwim</li>
+                    <li>SET feathers</li>
+                    <li>SET sleepsInCage</li>
+                    <li>SET longEars</li>
+                    <li>SET isMoody</li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <h2>logic</h2>
+                <ul>
+                    <li>START</li>
+                    <li>IF numOfLegs is 4,
+                        <ul>
+                            <li>IF sleepsInCage is true</li>
+                                <ul>
+                                    <li>IF longEars is true</li>
+                                    <li>DISPLAY rabbit</li>
+                                    <li>ELSE DISPLAY hamster</li>
+                                </ul>
+                            <li>ELSE IF isMoody is true</li>
+                            <li>
+                                <ul>
+                                    <li>DISPLAY cat</li>
+                                    <li>ELSE DISPLAY dog</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>ELSE IF has hasScales is true</li>
+                        <ul>
+                            <li>IF doesSwim is true</li>
+                                <ul>
+                                    <li>DISPLAY fish</li>
+                                    <li>ELSE DISPLAY snake</li>
+                                </ul>
+                        </ul>
+                    <li>IF feathers is true</li>
+                        <ul>
+                            <li>DISPLAY parrot</li>
+                            <li>ELSE DISPLAY spider</li>
+                        </ul>
+                    <li>END</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 id="output"></h2>
+            </div>
+        </div>
+    </div>
+    <script src="js/petfinder.js"></script>
+</body>
+</html>
